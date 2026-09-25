@@ -497,6 +497,11 @@ footer p {
         text-align: center;
     }
 }
+@media (max-width: 600px) {
+    .sideline {
+        display: none;
+    }
+}
 .club-media {
     padding: 80px 20px;
     text-align: center;
