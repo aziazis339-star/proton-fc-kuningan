@@ -55,6 +55,21 @@ Current news pages include:
 
 Each news article has its own detail page containing the article content, image, source attribution, and related navigation.
 
+## Sources & Attribution
+
+The project uses publicly available materials and information related to Proton FC Kuningan.
+
+### Sources
+
+* **Player photos, news photos, and match data:** Proton FC Kuningan's official Instagram.
+* **Proton FC Kuningan logo and Hampton logo:** found through Google Search. The original source websites are currently unavailable to the author.
+* **NZ logo:** Pro Futsal League (PFL) official website.
+
+All logos, photographs, brand names, and other third-party materials remain the property of their respective owners.
+
+This project is a fan-made website concept created for educational and portfolio purposes and is not affiliated with, officially connected to, or endorsed by Proton FC Kuningan or any of the brands and organizations mentioned.
+
+
 ## Tech Stack
 
 * HTML5
