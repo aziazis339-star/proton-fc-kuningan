@@ -147,3 +147,5 @@ This project is created for educational and portfolio purposes only.
 **Aziz Fajar Assiddhiqie**
 
 Aspiring Front-End Developer
+
+Last updated: September 2026
