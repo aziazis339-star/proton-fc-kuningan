@@ -440,34 +440,6 @@ footer p {
         letter-spacing: 1px;
     }
 }
-@media (max-width: 600px) {
-    .hero {
-        min-height: calc(100vh - 45px);
-        padding: 0 20px;
-    }
-
-    .hero-logo {
-        width: 85px;
-        height: 85px;
-    }
-
-    .nama {
-        font-size: 20px;
-        letter-spacing: 1px;
-        text-align: center;
-    }
-
-    .slogan {
-        font-size: 11px;
-        letter-spacing: 3px;
-    }
-
-    .hero-desc {
-        font-size: 11px;
-        letter-spacing: 0.5px;
-        text-align: center;
-    }
-}
 @media (max-width: 768px) and (min-width: 601px) {
     .hero-logo {
         width: 95px;
@@ -494,6 +466,34 @@ footer p {
     .nama {
         font-size: 48px;
         letter-spacing: 1px;
+        text-align: center;
+    }
+}
+@media (max-width: 600px) {
+    .hero {
+        min-height: calc(100vh - 45px);
+        padding: 0 20px;
+    }
+
+    .hero-logo {
+        width: 85px;
+        height: 85px;
+    }
+
+    .nama {
+        font-size: 24px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .slogan {
+        font-size: 11px;
+        letter-spacing: 3px;
+    }
+
+    .hero-desc {
+        font-size: 11px;
+        letter-spacing: 0.5px;
         text-align: center;
     }
 }
