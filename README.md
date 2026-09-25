@@ -62,8 +62,8 @@ The project uses publicly available materials and information related to Proton 
 ### Sources
 
 * **Player photos, news photos, and match data:** Proton FC Kuningan's official Instagram.
-* **Proton FC Kuningan logo and Hampton logo:** found through Google Search. The original source websites are currently unavailable to the author.
-* **NZ logo:** Pro Futsal League (PFL) official website.
+* **Proton FC Kuningan logo and Hampton FC logo:** found through Google Search. The original source websites are currently unavailable to the author.
+* **NZ Laksamana Laut Fc logo:** Pro Futsal League (PFL) official website.
 
 All logos, photographs, brand names, and other third-party materials remain the property of their respective owners.
 
