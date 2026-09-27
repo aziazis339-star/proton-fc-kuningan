@@ -1342,7 +1342,7 @@ body {
 
 .goal-minute {
     padding-right: 20px;
-    text-align: right;
+    text-align: center;
     font-size: 14px;
     font-weight: 700;
     border-right: 1px solid #c9a227;
