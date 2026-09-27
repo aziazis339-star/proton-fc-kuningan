@@ -1584,3 +1584,41 @@ body {
     }
 
 }
+
+@media (max-width: 1024px) and (min-width: 601px) {
+    .competition-stats {
+        width: 90%;
+    }
+
+    .competition-stat {
+        padding: 20px 10px;
+    }
+
+    .competition-stat span {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 600px) {
+    .competition-stats {
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .competition-stat {
+        padding: 15px 5px;
+    }
+
+    .competition-stat span {
+        font-size: 11px;
+    }
+
+    .competition-stat strong {
+        font-size: 18px;
+    }
+
+    .competition-stat + .competition-stat {
+        border-left: none;
+    }
+}
