@@ -1622,3 +1622,28 @@ body {
         border-left: none;
     }
 }
+
+.statistics-card {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px auto;
+    border: 1px solid rgba(255, 215, 0, 0.25);
+    background: rgba(255, 255, 255, 0.03);
+    height: 20px;
+    width: 180px;
+    padding: 4px 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.statistics-card h3 {
+    font-size: 10px;
+    text-align: center;
+}
+
+.statistics-card:hover {
+    border-color: rgba(255, 215, 0, 0.6);
+    color: gold;
+}
