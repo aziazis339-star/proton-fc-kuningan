@@ -481,7 +481,7 @@ footer p {
     }
 
     .nama {
-        font-size: 16px;
+        font-size: 24px;
         letter-spacing: 1px;
         text-align: center;
     }
@@ -495,11 +495,6 @@ footer p {
         font-size: 11px;
         letter-spacing: 0.5px;
         text-align: center;
-    }
-}
-@media (max-width: 600px) {
-    .sideline {
-        display: none;
     }
 }
 .club-media {
@@ -925,7 +920,6 @@ footer p {
     border: 1px solid rgba(255, 215, 0, 0.25);
     background: rgba(255, 255, 255, 0.03);
 }
-
 .match-round {
     margin: 0 0 20px;
     color: gold;
@@ -1237,6 +1231,8 @@ body {
     color: inherit;
     text-decoration: none;
 }
+
+
 /* MATCH OVERVIEW */
 
 .match-overview {
@@ -1342,7 +1338,7 @@ body {
 
 .goal-minute {
     padding-right: 20px;
-    text-align: right;
+    text-align: center;
     font-size: 14px;
     font-weight: 700;
     border-right: 1px solid #c9a227;
@@ -1453,7 +1449,6 @@ body {
 @media (max-width: 600px) {
 
     /* MATCH HEADER */
-
 
     .match-header {
         margin: 30px 20px 15px;
@@ -1584,7 +1579,6 @@ body {
     }
 
 }
-
 @media (max-width: 1024px) and (min-width: 601px) {
     .competition-stats {
         width: 90%;
@@ -1598,7 +1592,6 @@ body {
         font-size: 13px;
     }
 }
-
 @media (max-width: 600px) {
     .competition-stats {
         width: 90%;
@@ -1646,4 +1639,72 @@ body {
 .statistics-card:hover {
     border-color: rgba(255, 215, 0, 0.6);
     color: gold;
+}
+
+.newses-grid {
+    width: 90%;
+    max-width: 1700px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.newses-card {
+    border: 1px solid rgba(255, 215, 0, 0.3);
+    background: rgba(255, 255, 255, 0.03);
+    overflow: hidden;
+    min-height: 300px;
+    transition: 0.3s ease;
+    color: white;
+    text-decoration: none;
+}
+
+.newses-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.05);
+    color: gold;
+    font-size: 11px;
+    overflow: hidden;
+}
+
+.newses-card h3 {
+    margin: 0;
+    padding: 15px;
+    font-size: 13px;
+    line-height: 1.5;
+    font-weight: 600px;
+}
+
+.newses-card:hover {
+    border-color: rgba(255, 215, 0, 0.6);
+    transform: translateY(-4px);
+}
+
+@media (max-width: 768px) {
+    .newses-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 480px) {
+    .newses-grid {
+        grid-template-columns: 1fr;
+    }
+}
+.newses-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.stats-news p {
+    margin: 1px 0;
+}
+
+.stats-news {
+    margin-top: -10px;
+    margin-bottom: 20px;
 }
