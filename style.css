@@ -189,7 +189,7 @@ nav {
 .slogan {
     color: gold;
     font-size: 14px;
-    font-wieght: 600;
+    font-weight: 600;
     letter-spacing: 5px;
     margin: 0;
     opacity: 0.9;
@@ -481,7 +481,7 @@ footer p {
     }
 
     .nama {
-        font-size: 20px;
+        font-size: 24px;
         letter-spacing: 1px;
         text-align: center;
     }
@@ -1646,7 +1646,7 @@ body {
     max-width: 1700px;
     margin: 20px auto;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
 
